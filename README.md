@@ -2,12 +2,12 @@
 
 This project compares the performance of a **Deep Neural Network (DNN)** and the **LeNet-5 Convolutional Neural Network (CNN)** on the classic **MNIST handwritten digits dataset**.
 
-## 📂 Dataset
+## Dataset
 - **MNIST**: 60,000 training images and 10,000 test images
 - Grayscale, 28×28 pixels
 - 10 classes (digits 0–9)
 
-## 🏗️ Model Architectures
+## Model Architectures
 
 ### 1. Deep Neural Network (DNN)
 - Input: Flatten (28×28)
@@ -25,23 +25,23 @@ This project compares the performance of a **Deep Neural Network (DNN)** and the
 - Dense (84 neurons, tanh)
 - Dense (10 neurons, Softmax)
 
-## 📊 Results
+## Results
 
 | Model | Parameters | Test Accuracy |
 |-------|------------|---------------|
 | DNN (2 hidden layers + Dropout) | 118,282 | **97.11%** |
 | LeNet-5 CNN | 61,706 | **98.76%** |
 
-## ✅ Conclusion
+## Conclusion
 - **LeNet-5 CNN** achieves higher accuracy with fewer parameters compared to the DNN.  
 - CNNs are more efficient in extracting spatial features from images, making them superior for visual data classification.
 
-## ⚙️ Tech Stack
+## ⚙Tech Stack
 - Python
 - TensorFlow & Keras
 - Google Colab (GPU)
 
 ---
 
-📌 You can explore and extend this project by modifying the architectures, adding more layers, or testing with different datasets.
+You can explore and extend this project by modifying the architectures, adding more layers, or testing with different datasets.
 
